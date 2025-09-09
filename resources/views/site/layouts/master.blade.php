@@ -320,7 +320,7 @@
             <div class="hotline-phone-ring-circle-fill"></div>
             <div class="hotline-phone-ring-img-circle">
                 <a href="tel:{{ str_replace(' ', '', $config->hotline) }}" class="pps-btn-img">
-                    <img src="/site/images/phone.png" alt="Gọi điện thoại" width="50">
+                    <img src="/site/images/phone.png" alt="Gọi điện thoại" width="50" loading="lazy">
                 </a>
             </div>
         </div>
@@ -336,7 +336,7 @@
     <div class="inner-fabs show">
         <a target="blank" href="https://zalo.me/{{ str_replace(' ', '', $config->zalo) }}" class="fabs roundCool"
             id="chat-fab">
-            <img class="inner-fab-icon" src="/site/images/zalo.png" alt="chat-active-icon" border="0">
+            <img class="inner-fab-icon" src="/site/images/zalo.png" alt="chat-active-icon" border="0" loading="lazy">
         </a>
 
     </div>

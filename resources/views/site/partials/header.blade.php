@@ -9,7 +9,7 @@
                     <div class="logo-header-inner logo-header-one">
                         <a href="{{ route('front.home-page') }}">
                             <img src="{{ $config->image ? $config->image->path : 'https://placehold.co/100x100' }}"
-                                alt="">
+                                alt="" loading="lazy">
                         </a>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                                             <div class="nav-cart-item" ng-repeat="item in cart.items">
                                                 <div class="nav-cart-item-image">
                                                     <a ng-href="/san-pham/<% item.attributes.slug %>.html"><img
-                                                            ng-src="<% item.attributes.image %>" alt="p-1"></a>
+                                                            ng-src="<% item.attributes.image %>" alt="p-1" loading="lazy"></a>
                                                 </div>
                                                 <div class="nav-cart-item-desc">
                                                     <span

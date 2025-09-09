@@ -45,7 +45,7 @@
                         <div class="col-lg-4 col-md-6 m-b30">
                             <div class="blog-post blog-post-5-outer">
                                 <div class="wt-post-media">
-                                    <a href="{{ route('front.detail-blog', $item->slug) }}"><img src="{{ $item->image ? $item->image->path : 'https://placehold.co/600x600' }}" alt=""></a>
+                                    <a href="{{ route('front.detail-blog', $item->slug) }}"><img src="{{ $item->image ? $item->image->path : 'https://placehold.co/600x600' }}" alt="" loading="lazy"></a>
                                 </div>
                                 <div class="wt-post-info">
                                     <div class="wt-post-meta ">

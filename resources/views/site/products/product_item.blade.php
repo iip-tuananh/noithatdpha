@@ -6,7 +6,7 @@
                 {{-- src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
                 data-src="{{$product->image ? $product->image->path : ''}}" --}}
                 src="{{$product->image ? $product->image->path : ''}}"
-                alt="{{$product->name}}">
+                alt="{{$product->name}}" loading="lazy">
         </a>
     </div>
     <div class="product-info">

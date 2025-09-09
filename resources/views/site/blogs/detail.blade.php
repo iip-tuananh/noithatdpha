@@ -46,7 +46,7 @@
                             <div class="blog-post-single-outer">
                                 <div class="blog-post-style-2 blog-post-single">
                                     <div class="single-post-content">
-                                        <img src="{{ $blog->image ? $blog->image->path : 'https://placehold.co/600x600' }}" alt="">
+                                        <img src="{{ $blog->image ? $blog->image->path : 'https://placehold.co/600x600' }}" alt="" loading="lazy">
                                         <div class="wt-post-meta">
                                             <ul>
                                                 <li class="post-date">{{ $blog->created_at->format('d') }} {{ $blog->created_at->format('M') }} {{ $blog->created_at->format('Y') }}</li>

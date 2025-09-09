@@ -124,7 +124,7 @@
                     <div class="widget widget_about">
                         <div class="logo-footer clearfix">
                             <a href="{{ route('front.home-page') }}"><img
-                                    src="{{ $config->image ? $config->image->path : '' }}" alt=""></a>
+                                    src="{{ $config->image ? $config->image->path : '' }}" alt="" loading="lazy"></a>
                         </div>
                         <p>{{ $config->web_des }}
                         </p>
